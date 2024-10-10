@@ -1,4 +1,4 @@
-package com.beshoy.util;
+package com.beshoy.springcoredemo.common;
 
 
 import org.springframework.stereotype.Component;

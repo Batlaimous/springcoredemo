@@ -1,4 +1,4 @@
-package com.beshoy.util;
+package com.beshoy.springcoredemo.common;
 
 public interface Coach {
 
