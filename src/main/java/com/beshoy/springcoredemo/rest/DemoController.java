@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
     // define a private field for the dependency
-    private Coach myCoach;
+    private final Coach myCoach;
 
 
 
     // define a constructor for dependency injection
     @Autowired
-    public DemoController(@Qualifier("cricketCoach") Coach theCoach){
+    public DemoController(@Qualifier("aquatic") Coach theCoach){
         System.out.println("In Contructor: " + getClass().getSimpleName());
         myCoach = theCoach;
 

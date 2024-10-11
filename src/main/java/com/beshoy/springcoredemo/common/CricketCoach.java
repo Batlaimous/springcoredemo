@@ -2,8 +2,8 @@ package com.beshoy.springcoredemo.common;
 
 /*import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;*/
-import jakarta.annotation.PostConstruct;
-import jakarta.annotation.PreDestroy;
+/*import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;*/
 import org.springframework.stereotype.Component;
 
 @Component
@@ -14,7 +14,7 @@ public class CricketCoach implements Coach {
     }
 
     // define our init method
-    @PostConstruct
+   /* @PostConstruct
     public void doMyStartStuff(){
         System.out.println("Inside doMyStartStuff " + getClass().getSimpleName());
     }
@@ -23,7 +23,7 @@ public class CricketCoach implements Coach {
     @PreDestroy
     public void doMyDestroyStuff(){
         System.out.println("Inside doMyStartStuff " + getClass().getSimpleName());
-    }
+    }*/
 
     @Override
     public String getDailyWorkout() {
